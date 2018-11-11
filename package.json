@@ -1,0 +1,23 @@
+{
+  "name": "testclozeback",
+  "version": "1.0.0",
+  "description": "back for timer functions",
+  "main": "testServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node testServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cameron-Grams/testTimerBack.git"
+  },
+  "author": "Cameron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cameron-Grams/testTimerBack/issues"
+  },
+  "homepage": "https://github.com/Cameron-Grams/testTimerBack#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
