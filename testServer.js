@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', function (req, res) {
-  return res.json( { "message": "good on server" } );
+  return setTimeout( () =>  res.json( { "message": "good on server" } ), 7000 );
 });
 
 app.listen(port, () => console.log( 'listening on port: ', port ) );
